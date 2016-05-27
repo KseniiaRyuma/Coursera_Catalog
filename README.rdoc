@@ -1,28 +1,17 @@
-== README
+Coursera_Catalog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The overall goal of this assignment is to implement a Rails application using
+model, view, and controller classes.
 
-Things you may want to cover:
+• the model class will access information
 
-* Ruby version
+• the view class will display information and accept commands from the user
 
-* System dependencies
+• the controller class will implement actions through internal service logic and the delegation to model and view classes.
 
-* Configuration
+The functional goal is to provide web page access to recipe information served
 
-* Database creation
+by https://api.coursera.org/api/catalog.v1/courses through JSON and images. Documentation for the API can be found at https://api.coursera.org/api.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Feature:
+By adding parametr looking_for=any_name at the end of the url, for instance https://search-coursera-name.herokuapp.com/?looking_for=diet, the data will be apdated and courses relevent to the paramtr will apper.
