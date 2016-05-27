@@ -1,7 +1,8 @@
-Coursera_Catalog
+<h1>Coursera_Catalog</h1>
 
-The overall goal of this assignment is to implement a Rails application using
-model, view, and controller classes.
+Project can be find: https://search-coursera-name.herokuapp.com/
+
+The overall goal of this assignment is to implement a Rails application using model, view, and controller classes.
 
 • the model class will access information
 
@@ -9,9 +10,9 @@ model, view, and controller classes.
 
 • the controller class will implement actions through internal service logic and the delegation to model and view classes.
 
-The functional goal is to provide web page access to recipe information served
+The functional goal is to provide web page access to Coursera Courses information served
 
-by https://api.coursera.org/api/catalog.v1/courses through JSON and images. Documentation for the API can be found at https://api.coursera.org/api.
+By https://api.coursera.org/api/catalog.v1/courses through JSON and images. Documentation for the API can be found at https://api.coursera.org/api.
 
 Feature:
 By adding parametr looking_for=any_name at the end of the url, for instance https://search-coursera-name.herokuapp.com/?looking_for=diet, the data will be apdated and courses relevent to the paramtr will apper.
