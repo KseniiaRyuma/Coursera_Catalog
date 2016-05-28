@@ -1,4 +1,4 @@
-<h1>Coursera_Catalog</h1>
+# Coursera_Catalog
 
 Project can be find: https://search-coursera-name.herokuapp.com/
 
