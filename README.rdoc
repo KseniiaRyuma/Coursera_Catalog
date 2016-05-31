@@ -14,5 +14,5 @@ The functional goal is to provide web page access to Coursera Courses informatio
 
 By https://api.coursera.org/api/catalog.v1/courses through JSON and images. Documentation for the API can be found at https://api.coursera.org/api.
 
-Feature:
-By adding parametr looking_for=any_name at the end of the url, for instance https://search-coursera-name.herokuapp.com/?looking_for=diet, the data will be apdated and courses relevent to the paramtr will apper.
+Feature: By adding parameter looking_for=any_name at the end of the url, for 
+instance search-coursera-name.herokuapp.com/?looking_for=diet, the data will be updated and courses relevant to the parameter will appear.
